@@ -11,85 +11,87 @@
 </head>
 
 <body>
-    <nav class="navbar is-link burger" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="https://abhuu.github.io/">
-                <img src="/abhuu_alt.png" width="112" height="28">
-            </a>
+    <section class="hero is-link is-fullheight">
 
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-                <a href="/" class="navbar-item">
-                    Home
+        <nav class="navbar is-link burger" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://abhuu.github.io/">
+                    <img src="/abhuu_alt.png" width="112" height="28">
                 </a>
 
-                <a href="/experience" class="navbar-item">
-                    Experience
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
                 </a>
-
-                <a href="/education" class="navbar-item">
-                    Education
-                </a>
-
-                <a href="/skills" class="navbar-item">
-                    Skills
-                </a>
-
-                <a href="/interest" class="navbar-item">
-                    Interest
-                </a>
-
-                <a href="/awards" class="navbar-item">
-                    Awards
-                </a>
-
-                <a href="/contact" class="navbar-item">
-                    Contact Me
-                </a>
-
             </div>
-        </div>
 
-        <div class="navbar-end">
-            <div class="navbar-item">
-                <p class="buttons">
-                    <a href="https://github.com/abhuu" target="_blank">
-                        <button class="button is-link is-medium">
-                            <span class="icon">
-                                <i class="fab fa-github"></i>
-                            </span>
-                        </button>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="/" class="navbar-item">
+                        Home
                     </a>
-                    <a href="#" target="_blank">
-                        <button class="button is-link is-medium">
-                            <span class="icon">
-                                <i class="fab fa-linkedin"></i>
-                            </span>
-                        </button>
+
+                    <a href="/experience" class="navbar-item">
+                        Experience
                     </a>
-                    <a href="#" target="_blank">
-                        <button class="button is-link is-medium">
-                            <span class="icon">
-                                <i class="fas fa-envelope"></i>
-                            </span>
-                        </button>
+
+                    <a href="/education" class="navbar-item">
+                        Education
                     </a>
-                </p>
+
+                    <a href="/skills" class="navbar-item">
+                        Skills
+                    </a>
+
+                    <a href="/interest" class="navbar-item">
+                        Interest
+                    </a>
+
+                    <a href="/awards" class="navbar-item">
+                        Awards
+                    </a>
+
+                    <a href="/contact" class="navbar-item">
+                        Contact Me
+                    </a>
+
+                </div>
             </div>
-        </div>
-    </nav>
 
-    {% block content %}
-    {% endblock %}
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <p class="buttons">
+                        <a href="https://github.com/abhuu" target="_blank">
+                            <button class="button is-link is-medium">
+                                <span class="icon">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                            </button>
+                        </a>
+                        <a href="#" target="_blank">
+                            <button class="button is-link is-medium">
+                                <span class="icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </span>
+                            </button>
+                        </a>
+                        <a href="#" target="_blank">
+                            <button class="button is-link is-medium">
+                                <span class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </button>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </nav>
 
+        {% block content %}
+        {% endblock %}
+    </section>
     <script src="scripts.js"></script>
 </body>
 
