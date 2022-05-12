@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abhuu.github.io/sitemap.xml
